@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Ignore model weights and large files
+*.pt
+
+# Logs and temp files
+*.log
+*.csv
+*.sqlite3
+*.db
+*.DS_Store
