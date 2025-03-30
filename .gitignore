@@ -16,3 +16,26 @@ venv/
 *.sqlite3
 *.db
 *.DS_Store
+
+
+1️⃣ Set Up an AWS EC2 Instance (Virtual Server)
+Step 1: Create an EC2 Instance
+Go to AWS EC2 and log in.
+
+Click "Launch Instance".
+
+Choose Ubuntu 22.04 as the OS.
+
+Choose t2.micro (Free Tier eligible).
+
+Create a new key pair and download the .pem file (you’ll need this for SSH access).
+
+Configure security groups:
+
+Allow HTTP (port 80) and HTTPS (port 443) for web access.
+
+Allow port 5000 if you plan to run Flask directly.
+
+Allow SSH (port 22) to connect to the server.
+
+Click Launch and wait for the instance to start.
